@@ -86,8 +86,8 @@ export default function DiscretoBanner2({ onScroll }) {
         muted
         playsInline
       >
-        <source src="/Accelerator.webm" type="video/webm" />
-        <source src="/Accelerator.mp4" type="video/mp4" />
+        <source src="/torus.webm" type="video/webm" />
+        <source src="/torus.mp4" type="video/mp4" />
         {/* fallback text */}
         Your browser does not support HTML5 video.
       </video>

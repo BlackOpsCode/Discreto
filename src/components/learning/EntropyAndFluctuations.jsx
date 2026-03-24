@@ -140,7 +140,7 @@ export default function EntropyAndFluctuations() {
           </section>
 
           {/* SIDEBAR */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div className='article-layout'>
 
             <section style={{ alignItems: "flex-start", textAlign: "left", gap: "0.7rem" }}>
               <span className="section-eyebrow">entropy & probability</span>
