@@ -15,7 +15,6 @@ export default function DesktopNav() {
           </Link>
         ))}
       </div>
-      <SocialFastAccessFooter/>
     </nav>
   );
 }

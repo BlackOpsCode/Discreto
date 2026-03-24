@@ -1,4 +1,5 @@
 import NavBar from "../../navigation_templates/NavBar";
+import Footer from "../helpers/Footer";
 import QuizCreator from "./QuizCreator";
 
 const quizQuestions = [
@@ -110,6 +111,7 @@ export default function Quiz1() {
     <div className="page-container">
         <NavBar/>
         <QuizCreator questions={quizQuestions} title={quizTitle}/> 
+        <Footer/>
     </div>
    )
 }

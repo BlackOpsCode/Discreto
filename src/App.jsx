@@ -32,6 +32,7 @@ import Quiz7 from './components/quizes/Quiz7';
 import Quiz8 from './components/quizes/Quiz8';
 import Quiz9 from './components/quizes/Quiz9';
 import News from './components/News';
+import About from './components/helpers/About';
 
 const routes = {
   '' : Discreto,
@@ -41,7 +42,7 @@ const routes = {
   news: News,
 }
 
-const boltzmanEntropyPath = '/learning/boltzman-entropy';
+const boltzmanEntropyPath = '/learning/boltzmann-entropy';
 const statisticalEnsemblesPath = '/learning/statistical-ensembles';
 const particleDistributionsPath = '/learning/particle-distributions';
 const enDistPath = '/learning/energy-distributions';
@@ -91,6 +92,9 @@ function App() {
         <Route path='/quizes/quiz-7' element={<Quiz7/>}/>
         <Route path='/quizes/quiz-8' element={<Quiz8/>}/>
         <Route path='/quizes/quiz-9' element={<Quiz9/>}/>
+
+        {/*Rutez auxiliare aici*/}
+        <Route path='/about' element={<About/>}/>
 
       </Routes>
     </Router>
