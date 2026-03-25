@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from '/Discreto.png';
-import SocialFastAccessFooter from "./DesktopSocialFooterFastAccess";
 
 export default function DesktopNav() {
   const components = ["Home", "Simulation", "Learning", "Quizes", "News",];
