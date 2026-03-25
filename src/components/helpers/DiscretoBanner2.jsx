@@ -3,7 +3,7 @@ export default function DiscretoBanner2({ onScroll }) {
   const bannerStyle = {
     position: 'relative',
     width: '100%',
-    height: '100vh',
+    height: '100svh',
     overflow: 'hidden',
     display: 'flex',
     justifyContent: 'center',

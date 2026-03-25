@@ -32,7 +32,10 @@ import Quiz7 from './components/quizes/Quiz7';
 import Quiz8 from './components/quizes/Quiz8';
 import Quiz9 from './components/quizes/Quiz9';
 import News from './components/News';
-import About from './components/helpers/About';
+import About from './components/helpers/app_bindings/About';
+import Support from './components/helpers/app_bindings/Support';
+import PrivacyPolicy from './components/helpers/app_bindings/PrivacyPolicy';
+import TermsOfUse from './components/helpers/app_bindings/TermsOfUse';
 
 const routes = {
   '' : Discreto,
@@ -95,6 +98,9 @@ function App() {
 
         {/*Rutez auxiliare aici*/}
         <Route path='/about' element={<About/>}/>
+        <Route path='/support' element={<Support/>}/>
+        <Route path='/privacy' element={<PrivacyPolicy/>}/>
+        <Route path='/terms' element={<TermsOfUse/>}/>
 
       </Routes>
     </Router>

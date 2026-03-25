@@ -13,6 +13,7 @@ const legalLinks = [
   { label: "About",          to: "/about"   },
   { label: "Terms of Use",   to: "/terms"   },
   { label: "Privacy Policy", to: "/privacy" },
+  { label: "ⓘSupport",        to: "/support" }
 ];
 
 export default function Footer() {
@@ -99,7 +100,7 @@ export default function Footer() {
               to={to}
               style={{
                 fontFamily: "'Syne', sans-serif",
-                fontSize: "0.74rem",
+                fontSize: "1rem",
                 color: "var(--text-muted)",
                 letterSpacing: "0.02em",
                 transition: "color var(--t-fast)",

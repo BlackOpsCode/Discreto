@@ -58,7 +58,6 @@ export default function Discreto() {
       <style>{responsiveCSS}</style>
       <NavBar />
       <DiscretoBanner1 onScrollToWho={scrollToWho} />
-
       <div className="page-scroller">
         {/* ── WHO WE ARE ── */}
         <div
